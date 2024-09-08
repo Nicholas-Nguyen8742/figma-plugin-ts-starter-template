@@ -1,0 +1,13 @@
+{
+  "name": "figma-plugin-ts-start-template",
+  "id": "",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "ui": "dist/index.html",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma"
+  ]
+}
