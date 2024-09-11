@@ -2,13 +2,15 @@
 
 Below are detailed steps to install various pre-requisites for local development of this template's figma plugin setup.
 
-[Cloning](#clone-repository) | [nvm](#install-nvm-(node-version-manager)) | [pnpm](#install-pnpm-(performant-npm)) | [Build](#build-&-run-project) | [Figma](#setup-figma)
+_**Pre-requisites**_: [Cloning](#clone-repository) | [nvm](#install-nvm) | [pnpm](#install-pnpm)
+
+_**Development**_: [Install Dependencies](#install-dependencies) | [Start Build](#start-building) | [Figma](#setup-figma)
 
 ![Demonstration of running your local figma plugin with the Figma Desktop App](./assets/figma-installation.gif)
 
 ____
 
-## Clone repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Nicholas-Nguyen8742/figma-plugin-ts-starter-template.git
@@ -24,7 +26,7 @@ cd figma-plugin-ts-starter-template
 > rm -rf .git
 > ```
 
-## Install nvm (Node Version Manager)
+## Install nvm
 
 Node Version Manager documentation can be found [here](https://github.com/nvm-sh/nvm) to enable management of multiple node.js versions whether it be for work or for professional development.
 
@@ -51,9 +53,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install 20.9.0
 ```
 
-## Install pnpm (performant npm)
+## Install pnpm
 
-pnpm is a package manager that is a package manager tool that allows you to track all of your dependencies that has multiple package. More information can be found [here](https://pnpm.io/)
+pnpm (performant npm) is a package manager that is a package manager tool that allows you to track all of your dependencies that has multiple package. More information can be found [here](https://pnpm.io/)
 
 1. Install pnpm via npm
 
@@ -65,13 +67,13 @@ npm i -g pnpm@8.15.6
 
 > More installation options for pnpm can be found [here](https://pnpm.io/installation#using-a-standalone-script)
 
-## Install dependencies
+## Install Dependencies
 
 ```bash
 pnpm install
 ```
 
-## Build & Run Project
+## Start Building
 ```bash
 pnpm build
 
