@@ -90,7 +90,7 @@ The [Figma desktop app](https://www.figma.com/downloads/): Plugin development an
 
 ### Create a new plugin
 
-1.     Log into the desktop app and create a new design file.
+1. Log into the desktop app and create a new design file.
 1. From the menu, navigate to Plugins > Development, then select New plugin.
 1. From the Create a plugin modal, select Figma design and give your plugin a name.
 1. Select Custom UI
