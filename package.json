@@ -5,16 +5,17 @@
   "main": "dist/plugin.js",
   "types": "dist/plugin.d.ts",
   "license": "MIT",
-  "author": {
-    "name": "Nicholas Nguyen",
-    "email": "NicholasNguyen8742@gmail.com",
-    "url": "https://github.com/Nicholas-Nguyen8742"
-  },
+  "author": "Nicholas Nguyen <NicholasNguyen8742@gmail.com> (https://github.com/Nicholas-Nguyen8742)",
   "scripts": {
     "build": "pnpm run --stream -r build",
     "build:app": "pnpm run --filter ./packages/app build",
     "build:plugin": "pnpm run --filter ./packages/plugin build",
     "dev": "pnpm run --stream -r dev"
+  },
+  "homepage": "https://github.com/nicholas-nguyen8742/figma-plugin-ts-starter-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-nguyen8742/figma-plugin-ts-starter-template"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
