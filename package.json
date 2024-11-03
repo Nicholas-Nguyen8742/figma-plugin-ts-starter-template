@@ -17,6 +17,11 @@
     "type": "git",
     "url": "git+https://github.com/nicholas-nguyen8742/figma-plugin-ts-starter-template"
   },
+  "pnpm": {
+    "overrides": {
+      "rollup": ">=4.22.4"
+    }
+  },
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": "20.9.0",
